@@ -17,11 +17,25 @@ describe('manufacton login page', function() {
          console.log("PASS: App & Project clicked in Hamber Menu");
          browser.actions().mouseMove( element(by.xpath('//a[@ng-click="projectSettings()"]'))).click().perform();
          browser.sleep(2000);
+		 
+		 
+		 
+		 
+		 
 
          //click Member Tab
          element(by.xpath('//html//div[2]/a[1]')).click();
          browser.sleep(2000);
          console.log("PASS: Member Tab Clicked");
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
           // Add new Member
          element(by.xpath('//button[@class=\'btn btn-primary btn-sm pull-right waves-effect\']')).click();
          browser.sleep(2000);
