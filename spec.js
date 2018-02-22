@@ -19,19 +19,10 @@ describe('manufacton login page', function() {
          browser.sleep(2000);
 		 
 		 
-		 
-		 
-		 
-
          //click Member Tab
          element(by.xpath('//html//div[2]/a[1]')).click();
          browser.sleep(2000);
          console.log("PASS: Member Tab Clicked");
-		 
-		 
-		 
-		 
-		 
 		 
 		 
 		 
