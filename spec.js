@@ -22,9 +22,7 @@ describe('manufacton login page', function() {
          element(by.xpath('//html//div[2]/a[1]')).click();
          browser.sleep(2000);
          console.log("PASS: Member Tab Clicked");
-
           // Add new Member
-
          element(by.xpath('//button[@class=\'btn btn-primary btn-sm pull-right waves-effect\']')).click();
          browser.sleep(2000);
          var xp =  element(by.xpath(" //*[@id=\"autoscroll\"]/table/tbody/tr[35]/td[2]/edit-format/div/div[2]/input"));
